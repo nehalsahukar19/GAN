@@ -4,6 +4,7 @@ The Discriminator model and the Generator model are key components of the Genera
 
  📌 Discriminator Model:
 The discriminator model is a convolutional neural network (CNN) that distinguishes between real and generated handwritten digit images. It learns to classify input images based on their authenticity, providing feedback to the generator. By optimizing its parameters, the discriminator improves its ability to accurately differentiate between real and generated digits, driving the generator to produce more realistic outputs.
+
 📌 Generator Model:
 The generator model is a CNN that takes random noise as input and generates synthetic handwritten digit images. It learns to transform the noise vector into realistic digit samples by capturing the underlying distribution of real digits. Through adversarial training with the discriminator, the generator improves its ability to generate high-quality, diverse, and visually convincing handwritten digits.
 
@@ -12,9 +13,9 @@ The generator model is a CNN that takes random noise as input and generates synt
  👉In this project, we leverage GAN technology to generate realistic handwritten digit images. By training a generator network to produce synthetic digits and a discriminator network to distinguish between real and generated images, we enable the creation of new handwritten digits that closely resemble real ones. This has various applications such as data augmentation for machine learning tasks, synthetic dataset generation for research purposes, artistic expression through digital art, and exploring the capabilities of generative modeling. Through adversarial training and iterative refinement, our project enables the generation of high-quality and diverse handwritten digits using GAN technology.
 
 👉Learnings:
-📌 Getting well-versed with GAN models like Discriminator Model,Generator Model.
+📌 Getting well-versed with GAN models like Discriminator Model, Generator Model.
 📌 Working on a real-life project on Generative Adversarial Networks.
 
  
 
-👉 Dataset File: Loads the MNIST dataset from TensorFlow.
+👉 Dataset File: Load the MNIST dataset from TensorFlow.
